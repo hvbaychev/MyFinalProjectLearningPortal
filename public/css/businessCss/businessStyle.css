@@ -1,0 +1,81 @@
+.site-hero-business {
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    height: 100vh
+}
+
+
+#ul-business {
+    width: 45px; 
+    height: 45px;
+    border: 0;
+    transition: opacity 0.3s ease;
+  }
+
+
+  .sidebar-business {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 50px;
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    background: #acacac;
+  }
+
+  
+  
+  #ul-business.tab-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+
+  /*trainings section*/
+  .sidebar-business.trainings {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    background: #acacac;
+  }
+
+  #ul-business.training {
+    width: 45px; 
+    height: 45px;
+    border: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Adjust the height based on your needs */
+}
+
+.centered-table {
+    border: 1px solid #000000; 
+    border-collapse: collapse;
+    margin: 0 auto; 
+    background-color: rgba(144, 151, 164, 0.433)
+}
+
+.centered-table th,
+.centered-table td {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #000000; 
+    color: rgb(255, 255, 255);
+}
+
+.h1-courses {
+    size: 20px;
+    color: white;
+}

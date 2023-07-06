@@ -1,0 +1,99 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+.studentavatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    margin: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ .student_avatar_icon {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+ }
+ 
+ .cv{
+    vertical-align: middle;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+ }
+ 
+ .avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .username {
+    margin-top: 10px;
+    display: block;
+  }
+ 
+
+
+
+.student-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.student-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.student-details th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.student-details td {
+    padding: 15px;
+}
+
+.student-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.student-details tr:hover {
+    background-color: #ddd;
+}
+    .back-button {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,101 @@
+.course-container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.course-details th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.course-details td {
+    padding: 15px;
+}
+
+.course-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.course-details tr:hover {
+    background-color: #ddd;
+}
+.back-button {
+text-align: center;
+margin-top: 20px;
+}
+
+
+
+
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.tab-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-menu li {
+    flex: 1;
+}
+
+.tab-menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
+.tab-menu li a:hover {
+    background-color: #e5e5e5;
+}
+
+.tab-menu li.active a {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+ol, ul {
+    color: black;
+}

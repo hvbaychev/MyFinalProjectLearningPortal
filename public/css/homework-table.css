@@ -1,0 +1,44 @@
+.homework-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.homework-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.homework-details th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.homework-details td {
+    padding: 15px;
+}
+
+.homework-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.homework-details tr:hover {
+    background-color: #ddd;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+th {
+    text-align: center;
+}

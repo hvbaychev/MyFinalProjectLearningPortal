@@ -1,0 +1,91 @@
+.course {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    margin: 20px;
+ 
+ }
+ 
+ .course_icon {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+ }
+
+
+ .course-container-index {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+ 
+ .course-container-show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+ .course-container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+
+.course-details th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.course-details td {
+    padding: 15px;
+}
+
+.course-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.course-details tr:hover {
+    background-color: #ddd;
+}
+.back-button {
+text-align: center;
+margin-top: 20px;
+}
+
+.file-label {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.file-label-text {
+    display: block;
+}
